@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA3413620AC2F5B00E56EA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3413520AC2F5B00E56EA3 /* AppDelegate.m */; };
+		0BA3413920AC2F5B00E56EA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3413820AC2F5B00E56EA3 /* ViewController.m */; };
+		0BA3413C20AC2F5B00E56EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3413A20AC2F5B00E56EA3 /* Main.storyboard */; };
+		0BA3413E20AC2F5C00E56EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3413D20AC2F5C00E56EA3 /* Assets.xcassets */; };
+		0BA3414120AC2F5C00E56EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3413F20AC2F5C00E56EA3 /* LaunchScreen.storyboard */; };
+		0BA3414420AC2F5C00E56EA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3414320AC2F5C00E56EA3 /* main.m */; };
+		0BA3414D20AC2F9100E56EA3 /* KTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3414C20AC2F9100E56EA3 /* KTPlayerView.m */; };
+		0BA3415020AC3C0300E56EA3 /* ControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3414F20AC3C0300E56EA3 /* ControlsView.m */; };
+		0BA3415320AD517100E56EA3 /* KTSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3415220AD517100E56EA3 /* KTSlider.m */; };
+		0BA3415520AD942A00E56EA3 /* MoviePlayer_Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3415420AD942A00E56EA3 /* MoviePlayer_Slider@2x.png */; };
+		0BA341BC20AD9F1400E56EA3 /* btn_next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3419B20AD9F1400E56EA3 /* btn_next@3x.png */; };
+		0BA341BD20AD9F1400E56EA3 /* Action_Brightness+_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3419C20AD9F1400E56EA3 /* Action_Brightness+_44x44_@2x.png */; };
+		0BA341BE20AD9F1400E56EA3 /* Action_download_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3419D20AD9F1400E56EA3 /* Action_download_44x44_@2x.png */; };
+		0BA341BF20AD9F1400E56EA3 /* btn_pause_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3419E20AD9F1400E56EA3 /* btn_pause_iPad@2x.png */; };
+		0BA341C020AD9F1400E56EA3 /* Action_download_44x44_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3419F20AD9F1400E56EA3 /* Action_download_44x44_@3x.png */; };
+		0BA341C120AD9F1400E56EA3 /* Action_Brightness+_44x44_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A020AD9F1400E56EA3 /* Action_Brightness+_44x44_@3x.png */; };
+		0BA341C220AD9F1400E56EA3 /* btn_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A120AD9F1400E56EA3 /* btn_next@2x.png */; };
+		0BA341C320AD9F1400E56EA3 /* Action_Brightness-_44x44_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A220AD9F1400E56EA3 /* Action_Brightness-_44x44_@1x.png */; };
+		0BA341C420AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A320AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@2x.png */; };
+		0BA341C520AD9F1400E56EA3 /* Action_Volume-_44x44_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A420AD9F1400E56EA3 /* Action_Volume-_44x44_@3x.png */; };
+		0BA341C620AD9F1400E56EA3 /* btn_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A520AD9F1400E56EA3 /* btn_pause@3x.png */; };
+		0BA341C720AD9F1400E56EA3 /* btn_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A620AD9F1400E56EA3 /* btn_pause@2x.png */; };
+		0BA341C820AD9F1400E56EA3 /* Action_Volume-_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A720AD9F1400E56EA3 /* Action_Volume-_44x44_@2x.png */; };
+		0BA341C920AD9F1400E56EA3 /* btn_pause_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A820AD9F1400E56EA3 /* btn_pause_iPad.png */; };
+		0BA341CA20AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341A920AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@3x.png */; };
+		0BA341CB20AD9F1400E56EA3 /* Action_reload_player_100x100_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341AA20AD9F1400E56EA3 /* Action_reload_player_100x100_@3x.png */; };
+		0BA341CC20AD9F1400E56EA3 /* btn_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341AB20AD9F1400E56EA3 /* btn_pause.png */; };
+		0BA341CD20AD9F1400E56EA3 /* btn_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341AC20AD9F1400E56EA3 /* btn_next.png */; };
+		0BA341CE20AD9F1400E56EA3 /* Action_Volume+_44x44_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341AD20AD9F1400E56EA3 /* Action_Volume+_44x44_@3x.png */; };
+		0BA341CF20AD9F1400E56EA3 /* btn_next_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341AE20AD9F1400E56EA3 /* btn_next_iPad@2x.png */; };
+		0BA341D020AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341AF20AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@3x.png */; };
+		0BA341D120AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B020AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@2x.png */; };
+		0BA341D220AD9F1400E56EA3 /* Action_Volume+_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B120AD9F1400E56EA3 /* Action_Volume+_44x44_@2x.png */; };
+		0BA341D320AD9F1400E56EA3 /* Action_reload_player_100x100_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B220AD9F1400E56EA3 /* Action_reload_player_100x100_@2x.png */; };
+		0BA341D420AD9F1400E56EA3 /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B320AD9F1400E56EA3 /* btn_play.png */; };
+		0BA341D520AD9F1400E56EA3 /* Action_Brightness-_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B420AD9F1400E56EA3 /* Action_Brightness-_44x44_@2x.png */; };
+		0BA341D620AD9F1400E56EA3 /* btn_next_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B520AD9F1400E56EA3 /* btn_next_iPad.png */; };
+		0BA341D720AD9F1400E56EA3 /* btn_play_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B620AD9F1400E56EA3 /* btn_play_iPad.png */; };
+		0BA341D820AD9F1400E56EA3 /* btn_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B720AD9F1400E56EA3 /* btn_play@2x.png */; };
+		0BA341D920AD9F1400E56EA3 /* Action_Brightness+_44x44_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B820AD9F1400E56EA3 /* Action_Brightness+_44x44_@1x.png */; };
+		0BA341DA20AD9F1400E56EA3 /* btn_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341B920AD9F1400E56EA3 /* btn_play@3x.png */; };
+		0BA341DB20AD9F1400E56EA3 /* Action_Brightness-_44x44_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341BA20AD9F1400E56EA3 /* Action_Brightness-_44x44_@3x.png */; };
+		0BA341DC20AD9F1400E56EA3 /* btn_play_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA341BB20AD9F1400E56EA3 /* btn_play_iPad@2x.png */; };
+		D5779A8AA600552314998A6D /* libPods-KTPlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7494829C56BC88E7EC8E8F /* libPods-KTPlay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0243A1DE17BA2458FDDF86CB /* Pods-KTPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTPlay/Pods-KTPlay.release.xcconfig"; sourceTree = "<group>"; };
+		0BA3413120AC2F5B00E56EA3 /* KTPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA3413420AC2F5B00E56EA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BA3413520AC2F5B00E56EA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BA3413720AC2F5B00E56EA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BA3413820AC2F5B00E56EA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BA3413B20AC2F5B00E56EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BA3413D20AC2F5C00E56EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BA3414020AC2F5C00E56EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BA3414220AC2F5C00E56EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA3414320AC2F5C00E56EA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BA3414B20AC2F9100E56EA3 /* KTPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTPlayerView.h; sourceTree = "<group>"; };
+		0BA3414C20AC2F9100E56EA3 /* KTPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTPlayerView.m; sourceTree = "<group>"; };
+		0BA3414E20AC3C0300E56EA3 /* ControlsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlsView.h; sourceTree = "<group>"; };
+		0BA3414F20AC3C0300E56EA3 /* ControlsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlsView.m; sourceTree = "<group>"; };
+		0BA3415120AD517100E56EA3 /* KTSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTSlider.h; sourceTree = "<group>"; };
+		0BA3415220AD517100E56EA3 /* KTSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTSlider.m; sourceTree = "<group>"; };
+		0BA3415420AD942A00E56EA3 /* MoviePlayer_Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Slider@2x.png"; sourceTree = "<group>"; };
+		0BA3419B20AD9F1400E56EA3 /* btn_next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next@3x.png"; sourceTree = "<group>"; };
+		0BA3419C20AD9F1400E56EA3 /* Action_Brightness+_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Brightness+_44x44_@2x.png"; sourceTree = "<group>"; };
+		0BA3419D20AD9F1400E56EA3 /* Action_download_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_download_44x44_@2x.png"; sourceTree = "<group>"; };
+		0BA3419E20AD9F1400E56EA3 /* btn_pause_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_pause_iPad@2x.png"; sourceTree = "<group>"; };
+		0BA3419F20AD9F1400E56EA3 /* Action_download_44x44_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_download_44x44_@3x.png"; sourceTree = "<group>"; };
+		0BA341A020AD9F1400E56EA3 /* Action_Brightness+_44x44_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Brightness+_44x44_@3x.png"; sourceTree = "<group>"; };
+		0BA341A120AD9F1400E56EA3 /* btn_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next@2x.png"; sourceTree = "<group>"; };
+		0BA341A220AD9F1400E56EA3 /* Action_Brightness-_44x44_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Brightness-_44x44_@1x.png"; sourceTree = "<group>"; };
+		0BA341A320AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_turn_screen_white_18x18_@2x.png"; sourceTree = "<group>"; };
+		0BA341A420AD9F1400E56EA3 /* Action_Volume-_44x44_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Volume-_44x44_@3x.png"; sourceTree = "<group>"; };
+		0BA341A520AD9F1400E56EA3 /* btn_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_pause@3x.png"; sourceTree = "<group>"; };
+		0BA341A620AD9F1400E56EA3 /* btn_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_pause@2x.png"; sourceTree = "<group>"; };
+		0BA341A720AD9F1400E56EA3 /* Action_Volume-_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Volume-_44x44_@2x.png"; sourceTree = "<group>"; };
+		0BA341A820AD9F1400E56EA3 /* btn_pause_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pause_iPad.png; sourceTree = "<group>"; };
+		0BA341A920AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_turn_screen_white_18x18_@3x.png"; sourceTree = "<group>"; };
+		0BA341AA20AD9F1400E56EA3 /* Action_reload_player_100x100_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_reload_player_100x100_@3x.png"; sourceTree = "<group>"; };
+		0BA341AB20AD9F1400E56EA3 /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pause.png; sourceTree = "<group>"; };
+		0BA341AC20AD9F1400E56EA3 /* btn_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_next.png; sourceTree = "<group>"; };
+		0BA341AD20AD9F1400E56EA3 /* Action_Volume+_44x44_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Volume+_44x44_@3x.png"; sourceTree = "<group>"; };
+		0BA341AE20AD9F1400E56EA3 /* btn_next_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_iPad@2x.png"; sourceTree = "<group>"; };
+		0BA341AF20AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_zoomout_screen_white_18x18_@3x.png"; sourceTree = "<group>"; };
+		0BA341B020AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_zoomout_screen_white_18x18_@2x.png"; sourceTree = "<group>"; };
+		0BA341B120AD9F1400E56EA3 /* Action_Volume+_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Volume+_44x44_@2x.png"; sourceTree = "<group>"; };
+		0BA341B220AD9F1400E56EA3 /* Action_reload_player_100x100_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_reload_player_100x100_@2x.png"; sourceTree = "<group>"; };
+		0BA341B320AD9F1400E56EA3 /* btn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play.png; sourceTree = "<group>"; };
+		0BA341B420AD9F1400E56EA3 /* Action_Brightness-_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Brightness-_44x44_@2x.png"; sourceTree = "<group>"; };
+		0BA341B520AD9F1400E56EA3 /* btn_next_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_next_iPad.png; sourceTree = "<group>"; };
+		0BA341B620AD9F1400E56EA3 /* btn_play_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play_iPad.png; sourceTree = "<group>"; };
+		0BA341B720AD9F1400E56EA3 /* btn_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_play@2x.png"; sourceTree = "<group>"; };
+		0BA341B820AD9F1400E56EA3 /* Action_Brightness+_44x44_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Brightness+_44x44_@1x.png"; sourceTree = "<group>"; };
+		0BA341B920AD9F1400E56EA3 /* btn_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_play@3x.png"; sourceTree = "<group>"; };
+		0BA341BA20AD9F1400E56EA3 /* Action_Brightness-_44x44_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Action_Brightness-_44x44_@3x.png"; sourceTree = "<group>"; };
+		0BA341BB20AD9F1400E56EA3 /* btn_play_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_play_iPad@2x.png"; sourceTree = "<group>"; };
+		4B7494829C56BC88E7EC8E8F /* libPods-KTPlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTPlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F6E98B0F7B6B6E01205A4F /* Pods-KTPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTPlay/Pods-KTPlay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA3412E20AC2F5B00E56EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5779A8AA600552314998A6D /* libPods-KTPlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA3412820AC2F5B00E56EA3 = {
+			isa = PBXGroup;
+			children = (
+				0BA3413320AC2F5B00E56EA3 /* KTPlay */,
+				0BA3413220AC2F5B00E56EA3 /* Products */,
+				B55C746A594C06EEC455678E /* Pods */,
+				1A188C7CA6CD32E043E1CC7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BA3413220AC2F5B00E56EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3413120AC2F5B00E56EA3 /* KTPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BA3413320AC2F5B00E56EA3 /* KTPlay */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3414A20AC2F7C00E56EA3 /* PlayView */,
+				0BA3413420AC2F5B00E56EA3 /* AppDelegate.h */,
+				0BA3413520AC2F5B00E56EA3 /* AppDelegate.m */,
+				0BA3413720AC2F5B00E56EA3 /* ViewController.h */,
+				0BA3413820AC2F5B00E56EA3 /* ViewController.m */,
+				0BA3413A20AC2F5B00E56EA3 /* Main.storyboard */,
+				0BA3413D20AC2F5C00E56EA3 /* Assets.xcassets */,
+				0BA3413F20AC2F5C00E56EA3 /* LaunchScreen.storyboard */,
+				0BA3414220AC2F5C00E56EA3 /* Info.plist */,
+				0BA3414320AC2F5C00E56EA3 /* main.m */,
+			);
+			path = KTPlay;
+			sourceTree = "<group>";
+		};
+		0BA3414A20AC2F7C00E56EA3 /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3419A20AD9F1400E56EA3 /* Player_IMG */,
+				0BA3414B20AC2F9100E56EA3 /* KTPlayerView.h */,
+				0BA3414C20AC2F9100E56EA3 /* KTPlayerView.m */,
+				0BA3414E20AC3C0300E56EA3 /* ControlsView.h */,
+				0BA3414F20AC3C0300E56EA3 /* ControlsView.m */,
+				0BA3415120AD517100E56EA3 /* KTSlider.h */,
+				0BA3415220AD517100E56EA3 /* KTSlider.m */,
+			);
+			path = PlayView;
+			sourceTree = "<group>";
+		};
+		0BA3419A20AD9F1400E56EA3 /* Player_IMG */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3415420AD942A00E56EA3 /* MoviePlayer_Slider@2x.png */,
+				0BA3419B20AD9F1400E56EA3 /* btn_next@3x.png */,
+				0BA3419C20AD9F1400E56EA3 /* Action_Brightness+_44x44_@2x.png */,
+				0BA3419D20AD9F1400E56EA3 /* Action_download_44x44_@2x.png */,
+				0BA3419E20AD9F1400E56EA3 /* btn_pause_iPad@2x.png */,
+				0BA3419F20AD9F1400E56EA3 /* Action_download_44x44_@3x.png */,
+				0BA341A020AD9F1400E56EA3 /* Action_Brightness+_44x44_@3x.png */,
+				0BA341A120AD9F1400E56EA3 /* btn_next@2x.png */,
+				0BA341A220AD9F1400E56EA3 /* Action_Brightness-_44x44_@1x.png */,
+				0BA341A320AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@2x.png */,
+				0BA341A420AD9F1400E56EA3 /* Action_Volume-_44x44_@3x.png */,
+				0BA341A520AD9F1400E56EA3 /* btn_pause@3x.png */,
+				0BA341A620AD9F1400E56EA3 /* btn_pause@2x.png */,
+				0BA341A720AD9F1400E56EA3 /* Action_Volume-_44x44_@2x.png */,
+				0BA341A820AD9F1400E56EA3 /* btn_pause_iPad.png */,
+				0BA341A920AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@3x.png */,
+				0BA341AA20AD9F1400E56EA3 /* Action_reload_player_100x100_@3x.png */,
+				0BA341AB20AD9F1400E56EA3 /* btn_pause.png */,
+				0BA341AC20AD9F1400E56EA3 /* btn_next.png */,
+				0BA341AD20AD9F1400E56EA3 /* Action_Volume+_44x44_@3x.png */,
+				0BA341AE20AD9F1400E56EA3 /* btn_next_iPad@2x.png */,
+				0BA341AF20AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@3x.png */,
+				0BA341B020AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@2x.png */,
+				0BA341B120AD9F1400E56EA3 /* Action_Volume+_44x44_@2x.png */,
+				0BA341B220AD9F1400E56EA3 /* Action_reload_player_100x100_@2x.png */,
+				0BA341B320AD9F1400E56EA3 /* btn_play.png */,
+				0BA341B420AD9F1400E56EA3 /* Action_Brightness-_44x44_@2x.png */,
+				0BA341B520AD9F1400E56EA3 /* btn_next_iPad.png */,
+				0BA341B620AD9F1400E56EA3 /* btn_play_iPad.png */,
+				0BA341B720AD9F1400E56EA3 /* btn_play@2x.png */,
+				0BA341B820AD9F1400E56EA3 /* Action_Brightness+_44x44_@1x.png */,
+				0BA341B920AD9F1400E56EA3 /* btn_play@3x.png */,
+				0BA341BA20AD9F1400E56EA3 /* Action_Brightness-_44x44_@3x.png */,
+				0BA341BB20AD9F1400E56EA3 /* btn_play_iPad@2x.png */,
+			);
+			path = Player_IMG;
+			sourceTree = "<group>";
+		};
+		1A188C7CA6CD32E043E1CC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B7494829C56BC88E7EC8E8F /* libPods-KTPlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B55C746A594C06EEC455678E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F6E98B0F7B6B6E01205A4F /* Pods-KTPlay.debug.xcconfig */,
+				0243A1DE17BA2458FDDF86CB /* Pods-KTPlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BA3413020AC2F5B00E56EA3 /* KTPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA3414720AC2F5C00E56EA3 /* Build configuration list for PBXNativeTarget "KTPlay" */;
+			buildPhases = (
+				87CB6CA97CAAE8892871EEA9 /* [CP] Check Pods Manifest.lock */,
+				0BA3412D20AC2F5B00E56EA3 /* Sources */,
+				0BA3412E20AC2F5B00E56EA3 /* Frameworks */,
+				0BA3412F20AC2F5B00E56EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTPlay;
+			productName = KTPlay;
+			productReference = 0BA3413120AC2F5B00E56EA3 /* KTPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BA3412920AC2F5B00E56EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Ki;
+				TargetAttributes = {
+					0BA3413020AC2F5B00E56EA3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 0BA3412C20AC2F5B00E56EA3 /* Build configuration list for PBXProject "KTPlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BA3412820AC2F5B00E56EA3;
+			productRefGroup = 0BA3413220AC2F5B00E56EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BA3413020AC2F5B00E56EA3 /* KTPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BA3412F20AC2F5B00E56EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA341CC20AD9F1400E56EA3 /* btn_pause.png in Resources */,
+				0BA341D320AD9F1400E56EA3 /* Action_reload_player_100x100_@2x.png in Resources */,
+				0BA341D020AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@3x.png in Resources */,
+				0BA341BF20AD9F1400E56EA3 /* btn_pause_iPad@2x.png in Resources */,
+				0BA3414120AC2F5C00E56EA3 /* LaunchScreen.storyboard in Resources */,
+				0BA341CD20AD9F1400E56EA3 /* btn_next.png in Resources */,
+				0BA341DB20AD9F1400E56EA3 /* Action_Brightness-_44x44_@3x.png in Resources */,
+				0BA341CE20AD9F1400E56EA3 /* Action_Volume+_44x44_@3x.png in Resources */,
+				0BA341BC20AD9F1400E56EA3 /* btn_next@3x.png in Resources */,
+				0BA341BE20AD9F1400E56EA3 /* Action_download_44x44_@2x.png in Resources */,
+				0BA3415520AD942A00E56EA3 /* MoviePlayer_Slider@2x.png in Resources */,
+				0BA341DA20AD9F1400E56EA3 /* btn_play@3x.png in Resources */,
+				0BA341C420AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@2x.png in Resources */,
+				0BA3413E20AC2F5C00E56EA3 /* Assets.xcassets in Resources */,
+				0BA341C320AD9F1400E56EA3 /* Action_Brightness-_44x44_@1x.png in Resources */,
+				0BA341C120AD9F1400E56EA3 /* Action_Brightness+_44x44_@3x.png in Resources */,
+				0BA341C620AD9F1400E56EA3 /* btn_pause@3x.png in Resources */,
+				0BA341BD20AD9F1400E56EA3 /* Action_Brightness+_44x44_@2x.png in Resources */,
+				0BA341C920AD9F1400E56EA3 /* btn_pause_iPad.png in Resources */,
+				0BA341C820AD9F1400E56EA3 /* Action_Volume-_44x44_@2x.png in Resources */,
+				0BA341D520AD9F1400E56EA3 /* Action_Brightness-_44x44_@2x.png in Resources */,
+				0BA341D820AD9F1400E56EA3 /* btn_play@2x.png in Resources */,
+				0BA341CF20AD9F1400E56EA3 /* btn_next_iPad@2x.png in Resources */,
+				0BA3413C20AC2F5B00E56EA3 /* Main.storyboard in Resources */,
+				0BA341DC20AD9F1400E56EA3 /* btn_play_iPad@2x.png in Resources */,
+				0BA341C220AD9F1400E56EA3 /* btn_next@2x.png in Resources */,
+				0BA341D220AD9F1400E56EA3 /* Action_Volume+_44x44_@2x.png in Resources */,
+				0BA341C520AD9F1400E56EA3 /* Action_Volume-_44x44_@3x.png in Resources */,
+				0BA341C720AD9F1400E56EA3 /* btn_pause@2x.png in Resources */,
+				0BA341D620AD9F1400E56EA3 /* btn_next_iPad.png in Resources */,
+				0BA341D720AD9F1400E56EA3 /* btn_play_iPad.png in Resources */,
+				0BA341D920AD9F1400E56EA3 /* Action_Brightness+_44x44_@1x.png in Resources */,
+				0BA341C020AD9F1400E56EA3 /* Action_download_44x44_@3x.png in Resources */,
+				0BA341D420AD9F1400E56EA3 /* btn_play.png in Resources */,
+				0BA341CB20AD9F1400E56EA3 /* Action_reload_player_100x100_@3x.png in Resources */,
+				0BA341CA20AD9F1400E56EA3 /* ic_turn_screen_white_18x18_@3x.png in Resources */,
+				0BA341D120AD9F1400E56EA3 /* ic_zoomout_screen_white_18x18_@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87CB6CA97CAAE8892871EEA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA3412D20AC2F5B00E56EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA3414D20AC2F9100E56EA3 /* KTPlayerView.m in Sources */,
+				0BA3413920AC2F5B00E56EA3 /* ViewController.m in Sources */,
+				0BA3415020AC3C0300E56EA3 /* ControlsView.m in Sources */,
+				0BA3415320AD517100E56EA3 /* KTSlider.m in Sources */,
+				0BA3414420AC2F5C00E56EA3 /* main.m in Sources */,
+				0BA3413620AC2F5B00E56EA3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BA3413A20AC2F5B00E56EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA3413B20AC2F5B00E56EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BA3413F20AC2F5C00E56EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA3414020AC2F5C00E56EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BA3414520AC2F5C00E56EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BA3414620AC2F5C00E56EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BA3414820AC2F5C00E56EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F6E98B0F7B6B6E01205A4F /* Pods-KTPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAUEQFPTF6;
+				INFOPLIST_FILE = KTPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webi.www.KTPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BA3414920AC2F5C00E56EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0243A1DE17BA2458FDDF86CB /* Pods-KTPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAUEQFPTF6;
+				INFOPLIST_FILE = KTPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webi.www.KTPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA3412C20AC2F5B00E56EA3 /* Build configuration list for PBXProject "KTPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA3414520AC2F5C00E56EA3 /* Debug */,
+				0BA3414620AC2F5C00E56EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA3414720AC2F5C00E56EA3 /* Build configuration list for PBXNativeTarget "KTPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA3414820AC2F5C00E56EA3 /* Debug */,
+				0BA3414920AC2F5C00E56EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BA3412920AC2F5B00E56EA3 /* Project object */;
+}
